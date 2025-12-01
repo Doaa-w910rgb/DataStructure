@@ -7,9 +7,9 @@ using namespace std;
 
 // Class Node for each student
 struct StudentNode {
-    int id;             // Student ID
-    string name;        // Student name
-    StudentNode* next;  // Pointer to the next node
+    int id;             
+    string name;
+    StudentNode* next; 
 };
 
 // Class LinkedList
@@ -21,7 +21,7 @@ private:
 
 public:
     StudentList();               // Constructor
-    ~StudentList();              // Destructor to free memory
+    ~StudentList();              // Destructor 
 
     bool isEmpty();              // Check if the list is empty
     void moveToStart();          // Set current to first node
